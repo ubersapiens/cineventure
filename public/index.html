@@ -15,18 +15,6 @@
 
 <script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
-<script type="text/javascript">
-	
-
-$(document).ready( function() {
-    $('.subMenu').smint({
-    	'scrollSpeed' : 1000
-    });
-});
-
-
-</script>
-
 </head>
 <body>
 <div class="wrap ">
@@ -35,21 +23,22 @@ $(document).ready( function() {
 			<div class="heading">
 				<img src="../images/cineventure_logo.png">
 				<h1>Participez au financement du cinema</h1>
-				<a href="#jump" class="myButton">Souscription</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="subMenu" >
 	 	<div class="inner">
-	 		<a href="#sTop" class="subNavBtn">Accueil</a>
 	 		<a href="#s1" class="subNavBtn">Qu'est ce qu'une Sofica</a> 
 			<a href="#s2" class="subNavBtn">Fiscalité</a>
 			<a href="#s3" class="subNavBtn">La Sofica Cineventure</a>
 			<a href="#s4" class="subNavBtn">Caracteristiques</a>
 			<a href="#s5" class="subNavBtn">Qui sommes-nous</a>
-			<a href="#s6" class="subNavBtn">Souscription</a>
 		</div>
+	</div>
+
+	<div class="sidebox">
+
 	</div>
 
 	<div class="section s1">
@@ -76,52 +65,65 @@ $(document).ready( function() {
 
 	<div class="section s3">
 		<div class="inner">
-			<h1>LA SOFICA CINEVENTURE</h1>
+			<h1>LA SOFICA <span style="color:#C0392B;">CINEVENTURE</span></h1>
 			<ol>
-				<li>L’EXPERIENCE DES FONDATEURS est unique dans l’industrie cinématographique française : Jean Labadie a produit et distribué plus de 600 films dont près de 150 ont été présentés au festival de Cannes. Fondateur de la société Le Pacte, distributeur et vendeur international de films, il a aussi été le fondateur de Bac Films en 1986 et s’illustre par une expérience de plus de 30 ans dans la production et distribution de films. Grâce à un déploiement marketing et commercial en France et sur les grands marchés internationaux, ses films rencontrent tous les publics.</li>
-				<li>UNE SELECTION AUDACIEUSE ET EQUILIBREE qui vise à favoriser des films créatifs et à fort potentiel pour moitié, l’autre moitié étant dédiée à des investissements plus défensifs. Cette stratégie permet de diversifier les actifs et de maximiser la rentabilité.</li>
-				<li>LE COMITE D’INVESTISSEMENT qui assistera la SOFICA est composé de 7 professionnels de la production, de la distribution et des ventes internationales, représentant des sociétés incontournables du secteur comme Le Pacte, Wild Bunch, Diaphana, les Films du Worso ou encore Rectangle Productions.</li>
+				<li><span style="font-family: 'Lato', sans-serif;font-size:20px;">L’EXPERIENCE DES FONDATEURS</span> est unique dans l’industrie cinématographique française : Jean Labadie a produit et distribué plus de 600 films dont près de 150 ont été présentés au festival de Cannes. Fondateur de la société Le Pacte, distributeur et vendeur international de films, il a aussi été le fondateur de Bac Films en 1986 et s’illustre par une expérience de plus de 30 ans dans la production et distribution de films. Grâce à un déploiement marketing et commercial en France et sur les grands marchés internationaux, ses films rencontrent tous les publics.</li><br>
+				<li><span style="font-family: 'Lato', sans-serif;font-size:20px;">UNE SELECTION AUDACIEUSE ET EQUILIBREE</span> qui vise à favoriser des films créatifs et à fort potentiel pour moitié, l’autre moitié étant dédiée à des investissements plus défensifs. Cette stratégie permet de diversifier les actifs et de maximiser la rentabilité.</li><br>
+				<li><span style="font-family: 'Lato', sans-serif;font-size:20px;">LE COMITE D’INVESTISSEMENT</span> qui assistera la SOFICA est composé de 7 professionnels de la production, de la distribution et des ventes internationales, représentant des sociétés incontournables du secteur comme Le Pacte, Wild Bunch, Diaphana, les Films du Worso ou encore Rectangle Productions.</li><br>
 			</ol><br><br>
-			<h2 style="text-decoration:underline;">STRATEGIE D'INVESTISSEMENTS</h2>
-			<ul>
-				<li>
-					<p>Production de films français et européens</p>
-					<p>Ces investissements permettent de s’associer à la production de films français ainsi qu’à des coproductions européennes, permettant une bonne diversification du risque. Dès la sortie en salles et pendant toute la durée du film, la SOFICA pourra récupérer une partie des recettes générées sur tous supports et partout dans le monde, en fonction du succès du film.</p>
-				</li>
-				<li>
-					<p>Investissements adossés</p>
-					<p>Ce type d’investissement fait l’objet d’un engagement de rachat à prix fixe par les producteurs adosseurs, permettant ainsi de diminuer le risque global sur la SOFICA. Ces investissements adossés supportent les frais de gestion de la SOFICA en ne font pas l’objet d’une garantie bancaire.</p>
-				</li>
-				<li>
-					<p>Développement de projets d’auteurs</p>
-					<p>Les investissements dans le développement permettent de soutenir les travaux d’écriture et de préparation avant que le film trouve son financement. Il s’agit également d’une poche de la SOFICA moins exposée puisque le producteur s’engage à rembourser dès que l’un des projets trouve du financement (subventions, chaines TV, etc).</p>
-				</li>
-			</ul>
-			<img src="../images/calendar.jpg">
+			<h2><span style="color:#C0392B;">STRATEGIE</span> D'INVESTISSEMENTS</h2>
+			<div class="strategy">
+				<table>
+					<tr>
+						<td id="image"><img src="../images/pie_chart.jpg"></td>
+						<td>
+							<ul>
+								<li>
+									<h3>Production de films français et européens</h3>
+									<p>Ces investissements permettent de s’associer à la production de films français ainsi qu’à des coproductions européennes, permettant une bonne diversification du risque. Dès la sortie en salles et pendant toute la durée du film, la SOFICA pourra récupérer une partie des recettes générées sur tous supports et partout dans le monde, en fonction du succès du film.</p>
+								</li>
+								<li>
+									<h3>Investissements adossés</h3>
+									<p>Ce type d’investissement fait l’objet d’un engagement de rachat à prix fixe par les producteurs adosseurs, permettant ainsi de diminuer le risque global sur la SOFICA. Ces investissements adossés supportent les frais de gestion de la SOFICA en ne font pas l’objet d’une garantie bancaire.</p>
+								</li>
+								<li>
+									<h3>Développement de projets d’auteurs</h3>
+									<p>Les investissements dans le développement permettent de soutenir les travaux d’écriture et de préparation avant que le film trouve son financement. Il s’agit également d’une poche de la SOFICA moins exposée puisque le producteur s’engage à rembourser dès que l’un des projets trouve du financement (subventions, chaines TV, etc).</p>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<img style="margin-top: 2%;"src="../images/calendar.jpg">
 		</div>
 	</div>
 
 	<div class="section s4">
 		<div class="inner">
-			<h1>CARACTERISTIQUES FINANCIERES</h1>
-			<img src="../images/characteristics.jpg">
+			<h1>CARACTERISTIQUES DE LA <span style="color:#C0392B;">SOFICA CINEVENTURE</span></h1>
+			<img id="table" src="../images/characteristics.jpg">
+			<img id="text" src="../images/characteristics_text.png">
 		</div>
 	</div>
 
 	<div class="section s5">
 		<div class="inner">
-			<h1>LES FONDATEURS</h1>
+			<h1>LES <span style="color:#C0392B;">FONDATEURS</span></h1>
+			<p><span style="color:#C0392B;">CINEVENTURE</span> est une toute nouvelle SOFICA qui, en accord avec l’esprit de ses fondateurs, s’appuie sur la rencontre entre deux cultures :  celle d’un <span style="color:#C0392B;">CINE</span>ma de grande qualité, et celle des jeunes entreprises innovantes (en anglais <span style="color:#C0392B;">VENTURE</span> signifie une jeune pousse, une start-up, ou encore une aventure entrepreneuriale).</p>
 			<table style="width:100%">
 			  <tr>
-			    <td><img src="../images/ocp_logo.png"></td>
+			    <td style="padding-left: 5%;"><a href="http://www.ocpfinance.com"><img src="../images/ocp_logo.png"></a></td>
 			    <td>
-			    	<p>OCP Finance conçoit et distribue des produits de défiscalisation à destination du grand public depuis 2009. La société utilise les dispositifs de réduction ISF et IRPP en matière d’investissement dans les entreprises innovantes et compte près de 4000 clients représentant environ 50 millions d’euros de souscriptions. La plupart des investissements ont été réalisés dans des entreprises de croissance à un stade de développement commercial.</p>
+			    	<p style="text-align:justify;width:85%;">OCP Finance conçoit et distribue des produits de défiscalisation à destination du grand public depuis 2009. La société utilise les dispositifs de réduction ISF et IRPP en matière d’investissement dans les entreprises innovantes et compte près de 4000 clients représentant environ 50 millions d’euros de souscriptions. La plupart des investissements ont été réalisés dans des entreprises de croissance à un stade de développement commercial.</p>
+			    	<p><a href="http://www.ocpfinance.com">Plus d'informations sur ocpfinance.com</a></p>
 			    </td> 
 			  </tr>
 			  <tr>
-			    <td><img style="padding-top: 40px;" src="../images/lepacte_logo.png"></td>
+			    <td style="padding-left: 5%;"><a href="http://www.le-pacte.com"><img style="padding-top: 40px;width:90%;" src="../images/lepacte_logo.png"></a></td>
 			    <td>
-			    	<p>Le Pacte est une société indépendante de distribution, de production et de ventes internationales de films. Créée fin 2007 par Jean Labadie et Anne-Laure Labadie, Le Pacte a déjà distribué plus de 90 films.</p>
+			    	<p style="text-align:justify;width:85%;">Le Pacte est une société indépendante de distribution, de production et de ventes internationales de films. Créée fin 2007 par Jean Labadie et Anne-Laure Labadie, Le Pacte a déjà distribué plus de 90 films.</p>
+			    	<p><a href="http://www.le-pacte.com">Plus d'informations sur ocpfinance.com</a></p>
 			    </td> 
 			  </tr>
 			</table>
@@ -133,13 +135,51 @@ $(document).ready( function() {
 			<h1>COMMENT SOUSCRIRE?</h1>
 			<p><a style="text-decoration:none; color:white;"href="#">Contactez notre conseiller</a></p>
 			<h2 style="padding-top: 40px;">Questions</h2>
-			<p><i class="fa fa-phone"></i> 01.83.64.31.00<br></p>
-			<p><i class="fa fa-envelope"></i> info@cineventure.fr</p>
-			<a href="../files/Plaquette_Cineventure.pdf" class="myButton" style="background-color: #44c767; margin-top: 50px;">Téléchargez</a>
+			<table>
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-phone"></td>
+					<td>01.83.64.31.00</td>
+				</tr>
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-envelope"></td>
+					<td>info@cineventure.fr</td>
+				</tr>
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-map-marker"></td>
+					<td>8 rue de Valois, 75001 Paris</td>
+				</tr>
+			</table>
+			<h2 style="padding-top: 40px;">Telechargez</h2>
+			<table id="files">
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-file-pdf-o"></td>
+					<td><a href="../files/Plaquette_Cineventure.pdf">Plaquette</a></td>
+				</tr>
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-file-pdf-o"></td>
+					<td><a href="../files/Bulletin_Souscription.pdf">Bulletin de souscription</a></td>
+				</tr>
+				<tr>
+					<td style="padding: 0 10px 10px 0;"><i class="fa fa-file-pdf-o"></td>
+					<td><a href="../files/Prospectus.pdf">Prospectus</a></td>
+				</tr>
+			</table>
 		</div>
 	</div>
+
 	<a name="jump">
 </div>
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
 
 </body>
 </html>
