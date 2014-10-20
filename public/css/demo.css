@@ -86,7 +86,7 @@ a {
 
 
 .subMenu {
-	height: 50px;
+	height: 60px;
 	z-index: 1000;
 	width: 100%;
 	background: #C0392B;
@@ -115,7 +115,7 @@ a {
 }
 
 .subNavBtn#s1, .subNavBtn#s3, .subNavBtn#s5 {
-	margin-top: -7px;
+	margin-top: -5px;
 }
 .subMenu a:hover {
 	font-weight: bold;
