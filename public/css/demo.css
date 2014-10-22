@@ -290,7 +290,7 @@ a {
 }
 
 .s5 .inner {
-	padding-top:100px;
+	padding-top:50px;
 }
 
 .s5 .inner td p {
@@ -302,6 +302,16 @@ a {
 }
 
 .s6 {
+	background: #F3F3F3;
+	color:#3d3d3d;
+	height: 750px;
+}
+
+.s6 .inner {
+	padding-top:50px;
+}
+
+.s7 {
 	background: #C0392B;
 	color:white;
 	vertical-align: middle;
@@ -311,11 +321,11 @@ a {
 	z-index:10;
 }
 
-.s6 .inner {
+.s7 .inner {
 	padding-top:100px;
 }
 
-.s6 table td a {
+.s7 table td a {
 	text-decoration:none;
 	color:white;
 }
