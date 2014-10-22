@@ -18,15 +18,6 @@
 </head>
 <body>
 <div class="wrap">
-	<div class="section sTop">
-		<div class="inner">
-			<div class="heading">
-				<img src="../images/cineventure_logo.png">
-				<h1>Participez au financement du cinema</h1>
-			</div>
-		</div>
-	</div>
-
 	<div id="sticker">
 		<h2 style="font-size:16px; font-weight:900; margin: 0;">Comment souscrire?</h2>
       	<table style="font-size:13.5px; font-weight:300;">
@@ -43,10 +34,28 @@
 		<table style="font-size:13.5px; font-weight:300;">
 			<tr>
 				<td><i class="fa fa-file-pdf-o"></td>
-				<td><a style="text-decoration: none; color:white;" href="../files/Plaquette_Cineventure.pdf">Plaquette</a></td>
+				<td><a style="text-decoration: none; float: left; color:white;" href="../files/Plaquette_Cineventure.pdf">Plaquette</a></td>
+			</tr>
+			<tr>
+				<td ><i class="fa fa-file-pdf-o"></td>
+				<td><a style="text-decoration: none; float: left; color:white;" href="../files/Bulletin_Souscription.pdf">Bulletin de souscription</a></td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-file-pdf-o"></td>
+				<td><a style="text-decoration: none; float: left; color:white;" href="../files/Prospectus.pdf">Prospectus</a></td>
 			</tr>
 		</table>
     </div>
+
+    <div class="section sTop">
+		<div class="inner">
+			<div class="heading">
+				<img src="../images/cineventure_logo.png">
+				<h1>Participez au financement du cinema</h1>
+			</div>
+		</div>
+	</div>
+
 
 	<div class="subMenu" >
 	 	<div class="inner">
@@ -198,7 +207,7 @@
 
 $(document).ready( function() {
 	$(window).load(function(){
-      $("#sticker").sticky({ topSpacing: 90 });
+      $("#sticker").sticky({ topSpacing: 250 });
     });
     $('.subMenu').smint({
     	'scrollSpeed' : 1000
