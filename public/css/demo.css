@@ -330,6 +330,10 @@ a {
 	color:white;
 }
 
+#sticker-sticky-wrapper {
+	height:none;
+}
+
 #sticker {
 	background: #C0392B;
 	color: white;
@@ -340,7 +344,9 @@ a {
 	text-align: center;
 	padding: 20px;
 	border-radius: 10px;
-	float:right;
+	position: fixed;
+	right:0;
+	top:30%;
 	z-index:9;
 }
 

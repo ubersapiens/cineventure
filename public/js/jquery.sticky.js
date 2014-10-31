@@ -97,19 +97,6 @@
           if (stickyElement.css("float") == "right") {
             stickyElement.css({"float":"none"}).parent().css({"float":"right"});
           }
-
-          var stickyWrapper = stickyElement.parent();
-          stickyWrapper.css('height', stickyElement.outerHeight());
-          sticked.push({
-            topSpacing: o.topSpacing,
-            bottomSpacing: o.bottomSpacing,
-            stickyElement: stickyElement,
-            currentTop: null,
-            stickyWrapper: stickyWrapper,
-            className: o.className,
-            getWidthFrom: o.getWidthFrom,
-            responsiveWidth: o.responsiveWidth
-          });
         });
       },
       update: scroller,
