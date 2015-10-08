@@ -144,7 +144,7 @@ a {
 	position: relative;
 	left:43%;
 	width:80%;
-	top: -40px;
+	top: 0px;
 }
 
 .sTop .heading h1 {
@@ -153,7 +153,7 @@ a {
 	font-weight: bold;
 	text-align: center;
 	margin-left: -8%;
-	margin-top: -4%;
+	margin-top: -1%;
 	font-size: 32px;
 }
 
@@ -170,12 +170,18 @@ a {
 	vertical-align: middle;
 	width: 100%;
 	margin: 0 auto;
-	height: 680px;
+	height: 750px;
 }
 
 .s1 .introduction {
 	padding: 40px;
 	border: 2px solid #C0392B;
+}
+
+#s1-caption {
+	color:gray;
+	font-size:0.75em;
+	line-height:0.4em;
 }
 
 
@@ -337,7 +343,7 @@ a {
 #sticker {
 	background: #C0392B;
 	color: white;
-	width: 160px;
+	width: 200px;
 	font-size: 20px;
 	line-height: 1.6em;
 	font-weight: bold;
