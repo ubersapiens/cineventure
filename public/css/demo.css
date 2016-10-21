@@ -110,7 +110,7 @@ a {
 	color: #fff;
 }
 
-.subNavBtn#s1, .subNavBtn#s2, .subNavBtn#s3, .subNavBtn#s5 {
+.subNavBtn#s2, .subNavBtn#s3 {
 	margin-top: -5px;
 }
 .subMenu a:hover {
@@ -182,7 +182,7 @@ a {
 
 
 .s2 {
-	background: #f9f9f9;
+	background: white;
 	color: #C0392B;
 	vertical-align: middle;
 	width: 100%;
@@ -260,7 +260,7 @@ a {
 }
 
 .s4 {
-	background: #F3F3F3;
+	background: white;
 	height: 1050px;
 	color:#3d3d3d;
 }
@@ -305,7 +305,7 @@ a {
 }
 
 .s6 {
-	background: #F3F3F3;
+	background: white;
 	color:#C0392B;;
 	height: 980px;
 }
